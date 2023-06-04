@@ -14,21 +14,31 @@ body#container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: auto;
+
+    height: 96vh;
+
 }
 
+div.flex1{
+
+    
+    background-color: rgb(58, 50, 50);
+    width: 100%;
+    
+
+}
 form {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: rgb(58, 50, 50);
-    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20% 20%;
+    
     border-radius: 10px;
-    text-align: center;
-    align-items: center;
 }
 
-    form > * {
-        
-    }
 
 a {
     text-decoration: none;

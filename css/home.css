@@ -50,7 +50,7 @@ header#item1 {
 
 
 #item1, #item2 {
-    background-color: rgb(120, 83, 155);
+    background-color: rgba(148, 79, 212, 0.733);
 
 
 }
@@ -103,7 +103,7 @@ header#item1 {
     }
 
     ul.links-nav li a:hover {
-        background-color: rgb(93, 52, 131);
+        background-color: rgb(76, 25, 124);
     }
 
 #item3{
